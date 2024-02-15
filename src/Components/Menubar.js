@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Menubar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -24,6 +24,31 @@ function Menubar() {
             <Nav.Link href="#link">
               <Link to={"/services"} className="nav-link">
                 Services
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#link">
+              <Link to={"/products"} className="nav-link">
+                Products
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#link">
+              <Link to={"/form"} className="nav-link">
+                Forms
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#link">
+              <Link to={"/productpage"} className="nav-link">
+                ProductsPage
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#link">
+              <Link to={"/effects"} className="nav-link">
+                Effects
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#link">
+              <Link to={"/cart"} className="nav-link">
+                Cart
               </Link>
             </Nav.Link>
           </Nav>
